@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [
+      {
+        "menuName": "Refresh",
+        "functionName": "Refresh",
+        "defaultShortcut": "Ctrl+Shift+S"
+      }
+    ]
+  }
+}
