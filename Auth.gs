@@ -37,7 +37,9 @@ class ServiceAccount {
     this.iss = id;
     this.key = key;
     this.scope = scope;
-    this.sub = sub || null
+    if (sub) {
+      this.sub = sub
+    }
 
     return this
   }
